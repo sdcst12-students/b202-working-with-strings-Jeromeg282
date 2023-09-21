@@ -7,7 +7,7 @@ The assertion tests are included so you can test your output
 (4 points) 
 '''
 
-def replaceDog(input):
+def replaceDog(input_str):
     '''
     parameters:
     str input - string to search and replace occurrences of dog with kitty
@@ -15,9 +15,9 @@ def replaceDog(input):
     return
     str - the modified string
     '''
-    modifiedString = input
+    modified_String = input_str.replace("dog", "kitty")
 
-    return modifiedString
+    return modified_String
 
 
 if __name__ == "__main__":
